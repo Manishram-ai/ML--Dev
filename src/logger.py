@@ -2,6 +2,7 @@ import logging
 import os
 from datetime import datetime
 
+# current working dirc
 LOG_DIR = os.path.join(os.getcwd(), "logs")
 os.makedirs(LOG_DIR, exist_ok=True)
 
